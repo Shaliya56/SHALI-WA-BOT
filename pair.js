@@ -81,7 +81,7 @@ router.get("/", async (req, res) => {
               ""
             );
 
-            const sid = `*┏━━━━━━━━━━━━━━*\n*┃SHALI-MD SESSION IS*\n*┃SUCCESSFULLY*\n*┃CONNECTED ✅🧚‍♀️*\n*┗━━━━━━━━━━━━━━━*\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*❶ || Creator = SHALINDA*\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*❷ || Owner =*\nhttps://wa.me/+94761167172\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\nPOWERED BY SHALINDA*\n👉 ${string_session} 👈\n*මේ තියෙන්නෙ ඔයාගෙ සීසන් ID එක*`;
+            const sid = `*┏━━━━━━━━━━━━━━*\n*┃SHALI-MD SESSION IS*\n*┃SUCCESSFULLY*\n*┃CONNECTED ✅🧚‍♀️*\n*┗━━━━━━━━━━━━━━━*\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*❶ || Creator = SHALINDA*\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*❷ || Owner =*\nhttps://wa.me/+94761167172\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n*POWERED BY SHALINDA*\n*▱▱▱▱▱▱▱▱▱▱▱▱▱▱*\n\n\n\n👉 ${string_session} 👈\n*🧚‍♀️මේ තියෙන්නෙ ඔයාගෙ සීසන් ID එක😒*`;
             const mg = `🛑 *Do not share this code to anyone* 🛑\n*🧚‍♀️😫මේක කාටවත් යවන්න එපා හරිද😫🧚‍♀️*`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
