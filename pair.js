@@ -85,7 +85,7 @@ router.get("/", async (req, res) => {
             const mg = `🛑 *Do not share this code to anyone* 🛑\n*🧚‍♀️😫මේක කාටවත් යවන්න එපා හරිද😫🧚‍♀️*`;
             const dt = await RobinPairWeb.sendMessage(user_jid, {
               image: {
-                url: "https://i.ibb.co/BXJvkfZ/20250727-133740.png",
+                url: "https://raw.githubusercontent.com/Shaliya56/SHALI-WA-BOT/refs/heads/main/Images/20250727_133740.png",
               },
               caption: sid,
             })
